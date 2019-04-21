@@ -1,0 +1,29 @@
+h1 {
+  color: grey;
+}
+img {
+  width: 250px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: #333333;
+}
+header a {
+  color: #888888;
+  margin-right: 10px;
+  text-decoration: none;
+}
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#message1 {
+  color: red;
+}
+#message2 {
+  color: green;
+  white-space: pre;
+}
