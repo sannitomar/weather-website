@@ -1,10 +1,10 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,15 @@
     "express": "^4.16.4",
     "hbs": "^4.0.4",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sannitomar/weather-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sannitomar/weather-website/issues"
+  },
+  "homepage": "https://github.com/sannitomar/weather-website#readme",
+  "description": ""
 }
